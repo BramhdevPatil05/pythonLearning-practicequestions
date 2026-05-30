@@ -393,6 +393,80 @@ percentage = (marks_obtained / total_marks) * 100
 print("percentage =", percentage)
 
 
+# Question 13 Personal Profile
+name = "Bramhdev"
+age = 21
+college = "Ajeenkya DY Patil University"
+dream_job = "Data Scientist"
+
+print("Hello, my name is", name)
+print("I am", age, "years old")
+print("I study at", college)
+print("I want to become a", dream_job)
+
+# Question 14: Monthly Expenses
+rent = 5000
+food = 3000
+internet = 800
+travel = 1200
+
+total_expense = rent + food + internet + travel
+
+print("Total Monthly Expense =", total_expense)
+
+#Question 15: Student Marks
+maths = 80
+science = 75
+english = 85
+history = 70
+computer = 90
+
+total = maths + science + english + history + computer
+average = total / 5
+
+print("Total =", total)
+print("Average =", average)
 
 
+# Question 16: Salary Calculator
+
+salary = 25000
+
+annual_salary = salary * 12
+bonus = annual_salary * 0.10
+
+print("Annual Salary =", annual_salary)
+print("Salary After Bonus =", annual_salary + bonus)
+
+#Question 17: Shopping Discount
+
+price = 1500
+
+discount = price * 0.20
+final_price = price - discount
+
+print("Discount =", discount)
+print("Final Price =", final_price)
+
+#Question 18: EMI Calculation
+
+bike_price = 95000
+down_payment = 15000
+
+remaining = bike_price - down_payment
+emi = remaining / 12
+
+print("Remaining Amount =", remaining)
+print("Monthly EMI =", emi)
+
+# Question 19: Employee Information
+emp_id = 101
+name = "Rahul"
+salary = 35000.50
+working = True
+
+print(type(emp_id))
+print(type(name))
+print(type(salary))
+print(type(working))
 
