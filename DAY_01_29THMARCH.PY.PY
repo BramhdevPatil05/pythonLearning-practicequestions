@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 #level 1 -- variable functions data type
 
@@ -218,7 +217,6 @@ emi = (bike_price - down_payment) / 12
 print("the pending amount is ", remaining_amount)
 print("monthly emi for next 12 month is ", emi)
 
-=======
 
 #level 1 -- variable functions data type
 
@@ -398,4 +396,3 @@ print("percentage =", percentage)
 
 
 
->>>>>>> d8c2ad5165393ee30a91822f2c25ba7f60f6cfce
