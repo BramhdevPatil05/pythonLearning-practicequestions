@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 #level 1 -- variable functions data type
 
@@ -217,3 +218,184 @@ emi = (bike_price - down_payment) / 12
 print("the pending amount is ", remaining_amount)
 print("monthly emi for next 12 month is ", emi)
 
+=======
+
+#level 1 -- variable functions data type
+
+
+
+# #1 TAKE USER NAME AND GREET
+
+name = input("Enter your name: ")
+
+print("Hello", name)
+
+
+#2. Calculate Area of Rectangle Take length and breadth from user.
+
+length = float(input("ENTER THE length"))
+breath = float(input("ENTER THE breath"))
+
+area = length * breath 
+
+print("Area of rectangle = ", area)
+
+#3.Celsius to Fahrenheit
+
+celsius = float(input("temrature in celsius: "))
+
+fahrenhite = (9/5) * celsius + 32
+
+print("temprature in fahrenhite is: ", fahrenhite)
+
+
+#4. swaping two variable 
+
+a = 10
+b = 5
+
+print("before swaping")
+print("a =", a)
+print("b =", b)
+
+
+print("after swaping")
+print("a =", b)
+print("b =", a)
+
+
+#5. Find Square Cube of a Number 
+
+num = int(input("enter a numeber"))
+
+square = num * num * num # it can aso be (num **3)
+
+print("square cube is ", square)
+
+
+# level 2 operators practise
+
+#1. add two numbers
+
+a = int(input("enter number 1: "))
+b = int(input("enter number 2: "))
+
+Addition = a + b
+
+print("sum of two number is ", Addition)
+
+
+# 2. Subtract Two Numbers
+
+a = int(input("enter number 1: "))
+b = int(input("enter number 2: "))
+
+substraction = a - b
+
+print("substraction of two number is ", substraction)
+
+# 3. Multiply Two Numbers
+
+a = int(input("enter number 1: "))
+b = int(input("enter number 2: "))
+
+multiplication = a * b
+
+print("multiplication of two number is ", multiplication)
+
+
+
+# 4. Division Two Numbers
+
+a = int(input("enter number 1: "))
+b = int(input("enter number 2: "))
+
+division = a / b
+
+print("division of two number is ", division)
+
+
+# 5.Find Remainder
+
+a = int(input("enter number 1: "))
+b = int(input("enter number 2: "))
+
+remainder = a % b
+
+print("remainder of two number is ", remainder)
+
+
+# 6. Square of a Number
+
+num = int(input("enter a value: "))
+
+squareroot = num * num
+
+print("square root =", squareroot)
+
+
+# 7. Squarecube of a Number
+
+num = int(input("enter a value: "))
+
+squarecube = num * num * num # or num**3
+
+print("square root =", squarecube)
+
+# 8. Average of Two Numbers
+
+a = int(input("enter a value: "))
+b = int(input("enter a value: "))
+
+average = (a + b) / 2
+
+print("average =", average)
+
+# 9. Area of Rectangle
+
+length = float(input("enter the length:"))
+breath = float(input("enter the breath:"))
+
+areaofrectangele = length * breath 
+
+print("area of rectangle is =", areaofrectangele)
+
+
+# 10.Swap Two Numbers
+
+a = int(input("enter a number: "))
+b = int(input("enter a numebr: "))
+
+print("before swaping")
+print("a =", a)
+print("b =", b)
+
+
+print("after swaping")
+print("a =", b)
+print("b =", a)
+
+
+
+#11 convert minutes to seconds
+
+minutes = float(input("enter minutes"))
+
+seconds = minutes * 60
+
+print("seconds =", seconds)
+
+#12 percentage 
+
+marks_obtained = float(input("enter total numeber of marks obtained:"))
+total_marks = float(input("enter total numebr of marks: "))
+
+percentage = (marks_obtained / total_marks) * 100
+
+print("percentage =", percentage)
+
+
+
+
+
+>>>>>>> d8c2ad5165393ee30a91822f2c25ba7f60f6cfce
