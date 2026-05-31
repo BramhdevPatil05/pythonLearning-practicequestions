@@ -27,3 +27,38 @@ This day helped me build a strong foundation in Python and improve my basic prob
 Tech Used:
 Python
 VS Code
+
+
+# DAY_02_30THMARCH
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##DAY_03_31THMARCH
